@@ -1,0 +1,114 @@
+.navbar{
+    display: block;
+    margin: 0;
+    overflow: hidden;
+}
+.leftside{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: block;
+}
+.rightside{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+}
+.container{
+    display: block;
+}
+.welcomebox{
+    width: 100%;
+    text-align: center;
+}
+#tryfor{
+    padding: 0px 10px;
+    text-align: center;
+    padding-top: 22px;
+}
+#google{
+    padding: 5px 0px;
+}
+.picbox{
+    width: 100%;
+    margin: 0;
+    margin-top: 38px;
+}
+.logos{
+    margin: 0;
+    margin-top: 324px;
+}
+.logos img{
+    height: 50px;
+    width: 75px;
+}
+.container2{
+    display: block;
+}
+.vdobox{
+    width: 100%;
+}
+.vdobox img{
+    height: 75%;
+}
+.letterbox{
+    width: 100%;
+    margin-top: -82px;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 0px;
+}
+.letterbox h1{
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+}
+.getstarted{
+    margin-top: 105px;
+
+}
+.letterbox p{
+    height: 45px;
+}
+.watchvdo{
+    margin: auto;
+   
+}
+.startbox{
+    display: block;
+    
+}
+.eshan{
+    width: 95%;
+    margin: 0;
+    text-align: center;
+}
+.txt1{
+    font-size: 50px;
+}
+.txt2{
+    font-size: 20px;
+}
+.lists{
+    padding: 5px 3px;
+    font-size: 13px;
+}
+#logo{
+    padding: 10px 0px;
+    justify-content: center;
+}
+.list{
+    margin: 0;
+    justify-content: center;
+}
+.rightside input{
+    width: 140px;
+}
+.talk{
+    margin: 2px 0px;
+}
+.hasan{
+    margin: auto;
+}

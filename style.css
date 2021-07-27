@@ -1,0 +1,357 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f6efe8;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.leftside {
+  margin: 10px 10px;
+  display: flex;
+}
+.rightside {
+  margin: 10px 10px;
+  display: flex;
+}
+.list {
+  display: flex;
+  margin-left: 33px;
+}
+.lists {
+  padding: 5px 10px;
+  font-family: "Otomanopee One", sans-serif;
+  transition: 1s;
+}
+.lists:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 1s;
+}
+#logo {
+  padding: 5px 10px;
+  padding-left: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.talk {
+  border: 3px solid #f6efe8;
+  color: #510065;
+  margin-right: 25px;
+  padding: 7px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 8px;
+  transition: 150ms;
+}
+.talk:hover {
+  border: 3px solid #510065;
+  margin-right: 25px;
+  padding: 7px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 8px;
+  transition: 150ms;
+  cursor: pointer;
+  transform: scaleX(1.05);
+}
+.try {
+  border: 1px solid #510065;
+  background-color: #510065;
+  color: white;
+  border-radius: 8px;
+  padding: 7px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: 150ms;
+}
+.try:hover {
+  cursor: pointer;
+  border: 1px solid #72008f;
+  background-color: #72008f;
+}
+.signin {
+  padding: 7px 33px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+}
+#logo img {
+  width: 20px;
+  height: 20px;
+}
+.slack {
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Tourney", cursive;
+}
+.rightside input {
+  text-decoration: none;
+  outline: none;
+  border: 1px solid brown;
+  text-align: center;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.container {
+  height: 390px;
+  width: 100%;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+.welcomebox {
+  height: 300px;
+  width: 40%;
+  margin-top: 48px;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: sans-serif;
+}
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.tryandsign {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#tryfor {
+  border: 2px solid #72008f;
+  padding: 20px 78px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: white;
+  background-color: #72008f;
+  cursor: pointer;
+  transition: 150ms;
+}
+#tryfor:hover {
+  background-color: #9400b9;
+  border: 2px solid #9400b9;
+  transition: 150ms;
+}
+#google {
+  border: 2px solid rgb(0, 142, 167);
+  background-color: rgb(0, 142, 167);
+  color: white;
+  padding: 5px 32px;
+  margin-left: 6px;
+  display: flex;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  cursor: pointer;
+  transition: 150ms;
+}
+#google:hover {
+  border: 2px solid rgb(0, 172, 202);
+  background-color: rgb(0, 172, 202);
+  transition: 150ms;
+}
+#google img {
+  width: 75px;
+  height: 50px;
+}
+.ggl {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.picbox {
+  border: 2px solid rgb(0, 18, 43);
+  border-radius: 40px;
+  background: rgb(0, 18, 43);
+  height: 300px;
+  width: 40%;
+  margin-top: 48px;
+  margin-left: 134px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.txt1 {
+  font-size: 75px;
+  font-weight: bolder;
+  color: white;
+  font-family: monospace;
+  background: rgb(0, 18, 43);
+  z-index: 1;
+  animation-name: text;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+.txt2 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: aqua;
+  font-family: monospace;
+}
+@keyframes text {
+  0% {
+    color: rgb(0, 18, 43);
+    margin-bottom: -48px;
+  }
+  35% {
+    letter-spacing: 5px;
+    margin-bottom: -48px;
+  }
+  80% {
+    letter-spacing: unset;
+    margin-bottom: -48px;
+  }
+  100% {
+    letter-spacing: unset;
+  }
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.logos img {
+  height: 118px;
+  width: 155px;
+  cursor: pointer;
+  animation: logo 2s infinite;
+}
+.container2 {
+  height: 390px;
+  width: 100%;
+  margin: -8px 0px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+.vdobox {
+  height: 300px;
+  width: 40%;
+  margin-top: 48px;
+}
+.letterbox {
+  height: 300px;
+  width: 40%;
+  margin-top: 48px;
+  margin-left: 134px;
+}
+.watchvdo {
+  border: 2px solid #f6efe8;
+  border-radius: 10px;
+  padding: 15px 30px;
+  width: 21%;
+  font-family: "Acme", sans-serif;
+  text-align: center;
+  color: #72008f;
+  transition: 150ms;
+  cursor: pointer;
+}
+.watchvdo:hover {
+  border: 2px solid #72008f;
+}
+.vdobox img {
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
+.watchvdo a {
+  text-decoration: none;
+}
+.getstarted {
+  text-align: center;
+  margin-top: 40px;
+}
+.startbox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.eshan {
+  padding: 10px 10px;
+  border-radius: 20px;
+  background-color: white;
+  width: 289px;
+  margin: 0px 70px;
+  transition: 150ms;
+}
+.eshan:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 20px black;
+}
+.eshan .span {
+  font-size: 30px;
+  font-family: "Acme", sans-serif;
+  margin: 15px 0px;
+}
+.hasan {
+  border: 2px solid #72008f;
+  padding: 5px 5px;
+  text-align: center;
+  width: 10%;
+  border-radius: 5px;
+  color: white;
+  background-color: #72008f;
+  font-size: 25px;
+  font-family: fantasy;
+}
+h5 {
+  font-size: 20px;
+  font-family: "Acme", sans-serif;
+  font-weight: lighter;
+}
+.container3 {
+  background-color: #72008f;
+  margin-top: 92px;
+  width: 100%;
+  padding-top: 50px;
+}
+.container3 h1 {
+  text-align: center;
+  color: white;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.komuna {
+  margin: 10px 10px;
+  padding: 10px 10px;
+  margin-bottom: 70px;
+}
+#tr {
+  border: 2px solid white;
+  background-color: white;
+  color: #72008f;
+  font-weight: bolder;
+  font-family: "Baloo Bhaina 2", cursive;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 150ms;
+}
+#tr:hover {
+  transform: scaleX(1.1);
+}
+#tlk {
+  border: 2px solid white;
+  background-color: #72008f;
+  color: white;
+  font-weight: bolder;
+  font-family: "Baloo Bhaina 2", cursive;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 150ms;
+}
+#tlk:hover {
+  transform: scaleX(1.1);
+}
